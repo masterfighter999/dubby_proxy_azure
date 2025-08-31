@@ -8,13 +8,8 @@
   "navigationFallback": {
     "rewrite": "/index.html"
   },
-  "globalHeaders": {
-    "Content-Security-Policy": "default-src https: 'unsafe-inline'; object-src 'none';"
-  },
-  "responseOverrides": {
-    "404": {
-      "rewrite": "/index.html",
-      "statusCode": 200
-    }
+  "platform": {
+    "apiRuntime": "node:18"
   }
 }
+
