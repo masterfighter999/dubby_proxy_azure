@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "rewrite": "https://dubby-1-angyguexafg9ecgw.canadacentral-01.azurewebsites.net/api/*"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "globalHeaders": {
+    "Content-Security-Policy": "default-src https: 'unsafe-inline'; object-src 'none';"
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  }
+}
