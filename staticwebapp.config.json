@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "route": "/api/{*path}",
-      "rewrite": "https://dubby-dxf8fca3ascqf2fx.eastus2-01.azurewebsites.net/api/{path}",
+      "route": "/api/{*rest}",
+      "rewrite": "https://dubby-dxf8fca3ascqf2fx.eastus2-01.azurewebsites.net/api/{rest}",
       "allowedRoles": ["anonymous"]
     }
   ],
