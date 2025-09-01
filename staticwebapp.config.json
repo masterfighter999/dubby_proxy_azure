@@ -1,8 +1,10 @@
 {
+  "backend": {
+    "uri": "https://dubby-dxf8fca3ascqf2fx.eastus2-01.azurewebsites.net"
+  },
   "routes": [
     {
-      "route": "/api/{*rest}",
-      "rewrite": "https://dubby-dxf8fca3ascqf2fx.eastus2-01.azurewebsites.net/api/{rest}",
+      "route": "/api/{*path}",
       "allowedRoles": ["anonymous"]
     }
   ],
@@ -13,4 +15,3 @@
     "apiRuntime": "node:18"
   }
 }
-
