@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/api/*",
-      "rewrite": "https://dubby-1-angyguexafg9ecgw.canadacentral-01.azurewebsites.net/api/*"
+      "rewrite": "https://dubby-dxf8fca3ascqf2fx.eastus2-01.azurewebsites.net/api/*"
     }
   ],
   "navigationFallback": {
