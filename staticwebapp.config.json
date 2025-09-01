@@ -6,6 +6,10 @@
     }
   ],
   "navigationFallback": {
-    "rewrite": "/index.html"
+    "rewrite": "index.html"
+  },
+  "platform": {
+    "apiRuntime": "node:18"
   }
 }
+
